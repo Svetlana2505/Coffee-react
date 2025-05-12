@@ -1,0 +1,33 @@
+.header-text {
+  margin-top: 183px;
+
+  margin-bottom: 95px;
+  max-width: 527px;
+  color: var(--white);
+
+  h1 {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 19vw;
+  }
+}
+
+.header-text__top {
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.header-text {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .header-text__top {
+    font-size: 20px;
+  }
+  .header-text {
+    h1 {
+      font-size: 30vw;
+    }
+  }
+}

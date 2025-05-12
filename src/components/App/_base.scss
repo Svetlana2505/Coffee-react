@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+html {
+  scroll-behavior: smooth;
+  background-color: rgb(39, 39, 39);
+}
+
+body {
+  max-width: 1366px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: var(--font-family);
+  font-weight: 700;
+  text-wrap: balance;
+}
+
+.header {
+  min-height: 100vh;
+  background: linear-gradient(90deg, #1e1e1e 0%, rgba(0, 0, 0, 0) 100%),
+    url(../../assets/img/coffee_image.jpg);
+  background-position: top right 33%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main {
+  padding-top: 82px;
+
+  background: #fffefc;
+
+  @media (max-width: 767.9px) {
+    padding-top: 50px;
+  }
+}
+
+.section {
+  position: relative;
+
+  &:not(:last-child) {
+    margin-bottom: 82px;
+  }
+
+  @media (max-width: 767.9px) {
+    &:not(:last-child) {
+      margin-bottom: 40px;
+    }
+  }
+}
+
+@media (min-width: 769px) {
+  .section-best-coffee::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -127px;
+    width: 380px;
+    height: 272px;
+
+    background-image: url(../../assets/img/coffee_blast.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .section-advantages::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: -122px;
+    width: 380px;
+    height: 272px;
+
+    background-image: url(../../assets/img/coffee_blast-right.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .section-feebdack::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 30px;
+    width: 498px;
+    height: 272px;
+    z-index: 10;
+
+    background-image: url(../../assets/img/coffee_blast-right.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+.section-images {
+  position: relative;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(96, 56, 9, 0.7987570028011204) 0%
+    ),
+    url('../../assets/img/section4-bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-img__coffee {
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .section-img__coffee {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .section-feebdack::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 450px;
+    width: 414px;
+    height: 226px;
+    z-index: 10;
+
+    background-image: url(../../assets/img/section5-blast-left.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .section-footer:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -200px;
+    width: 297px;
+    height: 358px;
+    z-index: 10;
+
+    background-image: url(../../assets/img/section6-cup-left.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .section-footer::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: -200px;
+    width: 297px;
+    height: 358px;
+    z-index: 10;
+
+    background-image: url(../../assets/img/section6-right.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}

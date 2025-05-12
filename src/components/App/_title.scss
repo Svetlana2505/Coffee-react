@@ -1,0 +1,9 @@
+.title {
+  font-size: 54px;
+  color: var(--coffee);
+  margin-bottom: 16px;
+
+  @media (max-width: 768px) {
+    font-size: 34px;
+  }
+}

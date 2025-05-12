@@ -1,0 +1,71 @@
+.subscribe {
+  padding: 80px 10px;
+  text-align: center;
+  color: var(--white);
+
+  position: relative;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(96, 56, 9, 0.7987570028011204) 0%
+    ),
+    url('../../assets/img/section4-bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.subscribe-box {
+  .title {
+    color: var(--white);
+  }
+
+  .text-bottom {
+    margin-bottom: 26px;
+  }
+}
+
+.form {
+  border-radius: 4px;
+  border: 1px solid rgba(249, 192, 106, 0.42);
+  background: #fff9f1;
+  margin: auto;
+  max-width: 642px;
+  position: relative;
+
+  input {
+    width: 100%;
+    padding: 12px 26px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.7;
+    color: rgba(0, 0, 0, 0.34);
+  }
+
+  button {
+    position: absolute;
+    right: 0;
+    border-radius: 4px;
+    padding: 14px 26px;
+    background: #f9c06a;
+
+    font-size: 22px;
+    color: var(--coffee);
+  }
+}
+
+@media (max-width: 767.9px) {
+  .form {
+    width: 300px;
+
+    input {
+      padding: 7px 26px;
+      font-size: 12px;
+    }
+
+    button {
+      padding: 9px 15px;
+      font-size: 13px;
+    }
+  }
+}

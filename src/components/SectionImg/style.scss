@@ -1,0 +1,29 @@
+.section-img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-img__box {
+  padding: 135px 0;
+  color: var(--white);
+  width: 575px;
+
+  .title {
+    color: var(--white);
+  }
+
+  .text-bottom {
+    margin-bottom: 22px;
+  }
+}
+
+.section-img__cup {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .section-img__cup {
+    display: none;
+  }
+}

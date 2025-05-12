@@ -4,6 +4,7 @@ import youTube from '../../assets/img/svgicons/youTube.svg';
 import twit from '../../assets/img/svgicons/twit.svg';
 
 import './style.scss';
+import { Link } from 'react-router-dom';
 
 export const FooterBox = () => {
   return (
@@ -19,65 +20,65 @@ export const FooterBox = () => {
             specimen book.
           </p>
           <div className="social">
-            <a href="#" className="social-link">
+            <Link href="#" className="social-link">
               <img src={facebook} alt="" />
-            </a>
-            <a href="#" className="social-link">
+            </Link>
+            <Link href="#" className="social-link">
               <img src={inst} alt="" />
-            </a>
-            <a href="#" className="social-link">
+            </Link>
+            <Link href="#" className="social-link">
               <img src={youTube} alt="" />
-            </a>
-            <a href="#" className="social-link">
+            </Link>
+            <Link href="#" className="social-link">
               <img src={twit} alt="" />
-            </a>
+            </Link>
           </div>
         </div>
         <div className="footer__info-item">
           <dt>
-            <a href="#">About</a>
+            <Link>About</Link>
           </dt>
           <dd>
-            <a href="#">Menu</a>
+            <Link>Menu</Link>
           </dd>
           <dd>
-            <a href="#">FeLinktures</a>
+            <Link>FeLinktures</Link>
           </dd>
           <dd>
-            <a href="#">News & Blogs</a>
+            <Link>News & Blogs</Link>
           </dd>
           <dd>
-            <a href="#">Help & Supports</a>
+            <Link>Help & Supports</Link>
           </dd>
         </div>
 
         <div className="footer__info-item">
           <dt>
-            <a href="#">Company</a>
+            <Link>Company</Link>
           </dt>
           <dd>
-            <a href="#">How we work</a>
+            <Link>How we work</Link>
           </dd>
           <dd>
-            <a href="#">Terms of service</a>
+            <Link>Terms of service</Link>
           </dd>
           <dd>
-            <a href="#">Pricing</a>
+            <Link>Pricing</Link>
           </dd>
           <dd>
-            <a href="#">FAQ</a>
+            <Link>FAQ</Link>
           </dd>
         </div>
 
         <ul className="footer__info-item">
           <li className="footer__item-title">
-            <a href="#">ContLinkct Us</a>
+            <Link>ContLinkct Us</Link>
           </li>
           <li className="footer__item-text">
-            <a href="#">
+            <Link>
               <span> Akshya Nagar 1st Block 1st Cross,</span>
               Rammurthy nagar, Bangalore-560016
-            </a>
+            </Link>
           </li>
           <li className="footer__item-text">
             <a href="tel:+12029182132">+1 202-918-2132</a>

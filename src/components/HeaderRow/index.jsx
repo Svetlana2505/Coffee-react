@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './style.scss';
+import { Link } from 'react-router-dom';
 
 export const HeaderRow = () => {
   const [open, setOpen] = useState();
@@ -12,16 +13,16 @@ export const HeaderRow = () => {
 
       <ul className={`header__menu ${open ? 'menu--active' : ''}`}>
         <li className="header__menu-item">
-          <a href="#">Home</a>
+          <Link to="/">Home</Link>
         </li>
         <li className="header__menu-item">
-          <a href="#">Menu</a>
+          <Link>Menu</Link>
         </li>
         <li className="header__menu-item">
-          <a href="#">About Us</a>
+          <Link>About Us</Link>
         </li>
         <li className="header__menu-item">
-          <a href="#">Contact Us</a>
+          <Link>Contact Us</Link>
         </li>
       </ul>
       <div className="header__nav-btn">

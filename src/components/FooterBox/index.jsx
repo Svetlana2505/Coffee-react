@@ -70,28 +70,28 @@ export const FooterBox = () => {
           </dd>
         </div>
 
-        <ul className="footer__info-item">
-          <li className="footer__item-title">
+        <div className="footer__info-item">
+          <dt>
             <Link>ContLinkct Us</Link>
-          </li>
-          <li className="footer__item-text">
+          </dt>
+          <dd>
             <Link>
               <span> Akshya Nagar 1st Block 1st Cross,</span>
               Rammurthy nagar, Bangalore-560016
             </Link>
-          </li>
-          <li className="footer__item-text">
+          </dd>
+          <dd>
             <Link href="tel:+12029182132">+1 202-918-2132</Link>
-          </li>
-          <li className="footer__item-text">
+          </dd>
+          <dd>
             <Link href="email:beLinknscene@mLinkil.com">
               beLinknscene@mLinkil.com
             </Link>
-          </li>
-          <li className="footer__item-text">
+          </dd>
+          <dd>
             <Link href="email:www.beLinknscene.com">www.beLinknscene.com</Link>
-          </li>
-        </ul>
+          </dd>
+        </div>
       </dl>
     </div>
   );

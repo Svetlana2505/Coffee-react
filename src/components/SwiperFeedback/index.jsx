@@ -9,6 +9,7 @@ import { useRef, useState } from 'react';
 
 export const SwiperFeedback = () => {
   const [swiper, setSwiper] = useState();
+
   const prevRef = useRef();
   const nextRef = useRef();
 
@@ -38,6 +39,7 @@ export const SwiperFeedback = () => {
           spaceBetween={30}
           loop={true}
           onSwiper={setSwiper}
+          speed={1000}
         >
           {swiperData.map(({ id, description, name, profession }) => (
             <SwiperSlide className="swiper-slide" key={id}>

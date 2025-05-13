@@ -10,7 +10,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
   gap: 16px;
   margin: 0;
 }
@@ -42,23 +41,22 @@
 
   dt {
     font-size: 26px;
-    margin-bottom: 25px;
+    position: relative;
+
+    &:hover {
+      color: #f9c06a;
+    }
   }
 
   dd {
     font-weight: 400;
     font-size: 18px;
+    &:hover {
+      color: #f9c06a;
+    }
   }
 }
 
-.footer__item-title {
-  font-size: 26px;
-}
-
-.footer__item-text {
-  font-weight: 400;
-  font-size: 18px;
-}
 .social {
   display: flex;
   gap: 20px;

@@ -6,7 +6,7 @@ console.log(App);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/Coffee-react/">
       <App />
     </BrowserRouter>
   </React.StrictMode>

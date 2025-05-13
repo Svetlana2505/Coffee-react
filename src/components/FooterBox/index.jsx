@@ -81,15 +81,15 @@ export const FooterBox = () => {
             </Link>
           </li>
           <li className="footer__item-text">
-            <a href="tel:+12029182132">+1 202-918-2132</a>
+            <Link href="tel:+12029182132">+1 202-918-2132</Link>
           </li>
           <li className="footer__item-text">
-            <a href="email:beLinknscene@mLinkil.com">
+            <Link href="email:beLinknscene@mLinkil.com">
               beLinknscene@mLinkil.com
-            </a>
+            </Link>
           </li>
           <li className="footer__item-text">
-            <a href="email:www.beLinknscene.com">www.beLinknscene.com</a>
+            <Link href="email:www.beLinknscene.com">www.beLinknscene.com</Link>
           </li>
         </ul>
       </dl>

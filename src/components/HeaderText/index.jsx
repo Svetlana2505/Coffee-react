@@ -1,6 +1,6 @@
 import './style.scss';
 
-export const Headertext = () => {
+export const HeaderText = () => {
   return (
     <div className="header-text">
       <p className="header-text__top">We’ve got your morning covered with</p>

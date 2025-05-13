@@ -1,8 +1,8 @@
 {
-  "name": "",
+  "name": "Coffee-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Svetlana2505.github.io/Сoffee-react/",
+  "homepage": "https://Svetlana2505.github.io/Coffee-react/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",

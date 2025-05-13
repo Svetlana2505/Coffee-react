@@ -11,7 +11,7 @@ import img from '../../assets/img/section4-coffee_bean.png';
 
 import { BestCoffee } from 'components/Best-coffee';
 import { HeaderRow } from 'components/HeaderRow';
-import { Headertext } from 'components/HeaderText';
+import { HeaderText } from 'components/HeaderText';
 import { CoffeeStyle } from 'components/CoffeeStyle';
 import { Advantages } from 'components/Advantages';
 import { SectionImg } from 'components/SectionImg';
@@ -25,7 +25,7 @@ export const App = () => {
       <header className="header">
         <div className="container">
           <HeaderRow />
-          <Headertext />
+          <HeaderText />
         </div>
       </header>
       <main className="main">
@@ -52,7 +52,7 @@ export const App = () => {
             <img src={img} alt="coffee" />
           </div>
 
-          <div class="container">
+          <div className="container">
             <SectionImg />
           </div>
         </section>
